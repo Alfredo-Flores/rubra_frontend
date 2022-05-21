@@ -2,23 +2,23 @@
 const defaultConfig = {
   home: {
     bannerA: {
-      link: '/',
+      link: '/c/libretas',
       image: {
-        mobile: '/homepage/bannerB.webp',
-        desktop: '/homepage/bannerF.webp'
+        mobile: '/homepage/cuaderno_1.jpg',
+        desktop: '/homepage/cuaderno_1.jpg'
       }
     },
     bannerB: {
-      link: '/',
-      image: '/homepage/bannerE.webp'
+      link: '/c/libretas',
+      image: '/homepage/cuaderno_2.jpg'
     },
     bannerC: {
-      link: '/',
-      image: '/homepage/bannerC.webp'
+      link: '/c/libretas',
+      image: '/homepage/cuaderno_3.jpg'
     },
     bannerD: {
-      link: '/',
-      image: '/homepage/bannerG.webp'
+      link: '/c/libretas',
+      image: '/homepage/cuaderno_4.jpg'
     }
   }
 };
@@ -26,23 +26,23 @@ const defaultConfig = {
 const demoConfig = {
   home: {
     bannerA: {
-      link: '/c/women/women-clothing-skirts',
+      link: '/c/libretas',
       image: {
-        mobile: '/homepage/bannerB.webp',
-        desktop: '/homepage/bannerF.webp'
+        mobile: '/homepage/cuaderno_1.jpg',
+        desktop: '/homepage/cuaderno_1.jpg'
       }
     },
     bannerB: {
-      link: '/c/women/women-clothing-dresses',
-      image: '/homepage/bannerE.webp'
+      link: '/c/libretas',
+      image: '/homepage/cuaderno_2.webp'
     },
     bannerC: {
-      link: '/c/women/women-clothing-shirts',
-      image: '/homepage/bannerC.webp'
+      link: '/c/libretas',
+      image: '/homepage/cuaderno_3.jpg'
     },
     bannerD: {
-      link: '/c/women/women-shoes-sandals',
-      image: '/homepage/bannerG.webp'
+      link: '/c/libretas',
+      image: '/homepage/cuaderno_4.jpg'
     }
   }
 };

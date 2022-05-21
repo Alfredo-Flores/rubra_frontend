@@ -56,9 +56,7 @@
           <div class="empty-wishlist__banner">
             <SfImage src="/icons/empty-cart.svg" alt="Empty bag" class="empty-wishlist__icon" />
             <SfHeading
-              title="Your bag is empty"
-              description="Looks like you haven’t added any items to the bag yet. Start
-              shopping to fill it in."
+              title="Su carrito está vacío"
               class="empty-wishlist__label"
             />
           </div>

@@ -75,6 +75,7 @@ export default {
     currency: 'USD',
     country: 'US',
     countries: [
+      { name: 'MX', label: 'Mexico' },
       { name: 'US', label: 'United States', states: ['California', 'Nevada'] },
       { name: 'AT', label: 'Austria' },
       { name: 'DE', label: 'Germany' },
@@ -85,17 +86,25 @@ export default {
       { name: 'USD', label: 'Dollar' }
     ],
     locales: [
+      { code: 'es', label: 'Español', file: 'es.js', iso: 'es' },
       { code: 'en', label: 'English', file: 'en.js', iso: 'en' },
       { code: 'de', label: 'German', file: 'de.js', iso: 'de' }
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'es',
     lazy: true,
     seo: true,
     langDir: 'lang/',
     strategy: 'no_prefix',
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: 'es',
       numberFormats: {
+        es: {
+          currency: {
+            style: 'currency',
+            currency: 'MXN',
+            currencyDisplay: 'symbol'
+          }
+        },
         en: {
           currency: {
             style: 'currency',

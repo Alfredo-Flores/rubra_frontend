@@ -33,8 +33,8 @@
 
     <LazyHydrate when-visible>
       <div class="similar-products">
-        <SfHeading title="Match with it" :level="2"/>
-        <nuxt-link :to="localePath('/c/women')" class="smartphone-only">See all</nuxt-link>
+        <SfHeading title="Explora" :level="2"/>
+        <nuxt-link :to="localePath('/c/libretas')" class="smartphone-only">See all</nuxt-link>
       </div>
     </LazyHydrate>
 
@@ -152,11 +152,11 @@ export default {
     const banners = [
       {
         slot: 'banner-A',
-        subtitle: 'Dresses',
-        title: 'Cocktail & Party',
+        subtitle: 'Libretas',
+        title: 'Diario',
         description:
-            'Find stunning women\'s cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands.',
-        buttonText: 'Shop now',
+            'Una manera de reencontrarte',
+        buttonText: 'Comprar',
         image: {
           mobile: $config.theme.home.bannerA.image.mobile,
           desktop: $config.theme.home.bannerA.image.desktop
@@ -166,27 +166,27 @@ export default {
       },
       {
         slot: 'banner-B',
-        subtitle: 'Dresses',
-        title: 'Linen Dresses',
+        subtitle: 'Libretas',
+        title: 'Coleccion completa',
         description:
-            'Find stunning women\'s cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands.',
-        buttonText: 'Shop now',
+            'Encuentra distintos productos artesanales y amigables con el ambiente',
+        buttonText: 'Explorar',
         image: $config.theme.home.bannerB.image,
         class: 'sf-banner--slim banner-central desktop-only',
         link: $config.theme.home.bannerB.link
       },
       {
         slot: 'banner-C',
-        subtitle: 'T-Shirts',
-        title: 'The Office Life',
+        subtitle: 'Un estilo',
+        title: 'Ecologico',
         image: $config.theme.home.bannerC.image,
         class: 'sf-banner--slim banner__tshirt',
         link: $config.theme.home.bannerC.link
       },
       {
         slot: 'banner-D',
-        subtitle: 'Summer Sandals',
-        title: 'Eco Sandals',
+        subtitle: 'Exclusiva',
+        title: 'Libretas de contaduria',
         image: $config.theme.home.bannerD.image,
         class: 'sf-banner--slim',
         link: $config.theme.home.bannerD.link

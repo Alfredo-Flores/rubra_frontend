@@ -89,13 +89,6 @@
        </div>
        <div v-else key="no-results" class="before-results">
          <SfImage :src="'/error/error.svg'" class="before-results__picture" alt="error" loading="lazy"/>
-         <template v-if="term">
-           <p class="before-results__paragraph"> We haven’t found any results for given phrase </p>
-         </template>
-         <template v-else>
-           <p class="before-results__paragraph"> You haven’t searched for items yet </p>
-           <p class="before-results__paragraph"> Let’s start now – we’ll help you </p>
-         </template>
          <SfButton
           class="before-results__button color-secondary smartphone-only"
           @click="$emit('close')"

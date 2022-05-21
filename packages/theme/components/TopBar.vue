@@ -1,7 +1,7 @@
 <template>
   <SfTopBar class="topbar">
     <template #left>
-      <SfButton class="sf-button--text">{{ $t('Help & FAQs') }}</SfButton>
+      <SfButton class="sf-button--text">{{ $t('authentic') }}</SfButton>
     </template>
     <template #right>
       <LocaleSelector />
