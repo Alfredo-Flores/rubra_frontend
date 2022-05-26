@@ -6,8 +6,10 @@ yarn
 ```
 
 ```bash
-yarn build
+yarn start
 ```
+
+or development
 
 ```bash
 yarn dev
